@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1.0">
+<meta name="format-detection" content="telephone=no,address=no,email=no">
+<meta name="author" content="西日本医科学生オーケストラフェスティバル実行委員会">
+<meta name="apple-mobile-web-app-title" content="西オケ">
+
+<!--
+===================================================
+
+ Nishi-Orche Official Website
+   https://nishi-orche.com/
+
+===================================================
+-->
+
+<!-- description
+  このページについて説明する文章。
+  Google検索結果に表示される。
+  「content=""」の中身を編集する。 -->
+<meta name="description" content="西日本医科学生オーケストラフェスティバル、通称「西オケ」。第29回は2018年3月24日（土）広島開催。合宿は 3/18-3/23 愛媛にて。">
+
+<!-- favicon
+  ブックマークなどに表示されるアイコンのこと。ファビコン。
+  作り方は「favicon 作成」でググる。
+  作成時のサイズ設定は 16,24,32,48,64,128,256 の 7 サイズがよい。
+  ファイル名は「favicon.ico」。 -->
+<link rel="icon" href="favicon.ico">
+
+<!-- apple-touch-icon
+  スマートフォン用アイコン。
+  192x192px のPNG画像を作成する。
+  ファイル名は「apple-touch-icon.png」。 -->
+<link rel="apple-touch-icon" size="192x192" href="apple-touch-icon.png">
+
+<link rel="canonical" href="https://nishi-orche.com/">
+<link rel="stylesheet" href="src/normalize.css">
+<link rel="stylesheet" href="src/style.css">
+<link rel="stylesheet" href="src/flexslider.css">
+<link rel="stylesheet" href="src/lightbox.css">
+<title>西日本医科学生オーケストラフェスティバル</title>
+<style>
+.flexslider > .slides > li > .copyright {
+ display: block;
+ box-sizing: border-box;
+ width: 45%; /* fallback */
+ width: calc(50% - 70px);
+ position: absolute;
+ right: 0; bottom: 0;
+ margin: 0 15px 23px 0;
+ padding: 0;
+ font-size: 7pt;
+ font-weight: 300;
+ color: rgba(255,255,255,.75);
+ text-align: right;
+}
+</style>
+<div class="first">
+ <div class="flexslider">
+  <ul class="slides">
+   <!-- slides
+   トップページの画像。
+   以下の書式で追加する：
+   <li style="background-image:url(【画像ファイル名】)">
+    <p class="copyright"><a href="【画像の出典URL】"><u>【画像著作者】</u> <u>【著作権表示】</u></a></p>
+   例：
+   <li style="background-image:url(img/free_hiroshima_miyajima1.jpg)">
+    <p class="copyright"><a href="https://commons.wikimedia.org/wiki/File:Itsukushima_shrine_01.jpg"><u>Butch</u> <u>CC BY-SA 4.0</u></a></p>
+
+   著作権表示が不要の場合は以下の1行でよい：
+   <li style="background-image:url(【画像ファイル名】)">
+   -->
+   <li style="background-image:url(img/free_hiroshima_miyajima1.jpg)">
+    <p class="copyright"><a href="https://commons.wikimedia.org/wiki/File:Itsukushima_shrine_01.jpg"><u>Butch</u> <u>CC BY-SA 4.0</u></a></p>
+   <li style="background-image:url(img/free_hiroshima_night_city.jpg)">
+    <p class="copyright"><a href="https://commons.wikimedia.org/wiki/File:HiroshimaNight.jpg"><u>Charles Voogd</u> <u>CC BY-SA 3.0</u></a></p>
+   <li style="background-image:url(img/free_hiroshima_stadium.jpg)">
+    <p class="copyright"><a href="https://commons.wikimedia.org/wiki/File:MAZDA_Zoom-Zoom_Stadium_Hiroshima(March_21,_2016).JPG"><u>HKT3012</u> <u>CC BY-SA 4.0</u></a></p>
+   <li style="background-image:url(img/free_hiroshima_okonomi.jpg)">
+    <p class="copyright"><a href="https://www.flickr.com/photos/norio-nakayama/8591551998"><u>Norio NAKAYAMA</u> <u>CC BY-SA 2.0</u></a></p>
+  </ul>
+ </div>
+</div>
+<header id="header"><!-- script.js で記述 --></header>
+
+
+
+<main>
+<style>
+.button-links {
+ box-sizing: border-box;
+ max-width: 710px;
+ margin: 20px auto 0 auto;
+ font-size: 12pt;
+ text-align: center;
+ display: flex;
+ justify-content: space-between;
+}
+.button-links > a[href] {
+ flex-grow: 1;
+ flex-basis: 150px;
+ border-width: 1px;
+ border-style: solid;
+ border-color: #500 transparent;
+ padding: 16px;
+ color: #500;
+ background: #fff;
+ transition: .2s;
+}
+.button-links > a[href]:focus,
+.button-links > a[href]:hover,
+.button-links > a[href]:active {
+ color: #fff;
+ background: #500;
+ text-decoration: none;
+}
+.button-links > a[href]:not(:first-child){
+ border-left-color: #500;
+ margin-left: -1px;
+}
+@media screen and (min-width: 710px){
+ .button-links > a[href] {
+  border: 1px solid #500;
+  border-radius: 5px;
+ }
+ .button-links > a[href]:not(:first-child){
+  margin-left: 10px;
+ }
+}
+</style>
+<section>
+<article>
+第29回西オケは終了しました。ご来場いただいたお客様に、そしてこのオケに携わったすべての方に、心よりお礼申し上げます。本当にありがとうございました。
+
+第30回西オケでお会いしましょう！
+</article>
+<article>
+<h2>演奏会のご案内</h2>
+</article>
+<style>
+table.dl {
+ border-collapse: collapse;
+ border: none;
+}
+table.dl td:first-child {
+ width: 2.5em;
+ vertical-align: top;
+}
+.concert {
+ white-space:normal;
+ margin-top: 1em;
+}
+.concert-flyer {
+ display: block;
+ margin: 0 auto 1em auto;
+ box-sizing: border-box;
+ width: 270px;
+ height: 382px;
+ border: 1px solid #ddd;
+ background: #ddd center center / cover no-repeat;
+}
+.concert-detail {
+ display: block;
+ margin: 0 auto;
+ max-width:410px;
+}
+.concert-title {
+ font-size: 110%;
+ line-height: 1.4;
+ text-align: left;
+ margin-top: 0;
+}
+@media screen and (min-width: 760px){
+ .concert-flyer,.concert-detail {
+  vertical-align: top;
+ }
+ .concert-flyer {
+  display: inline-block;
+  margin: 0 1.5em 0 0;
+ }
+ .concert-detail {
+  display: inline-block;
+  margin: 0;
+ }
+}
+</style>
+<article id="concert" class="concert">
+ <a class="concert-flyer" data-lightbox="flyer" href="img/flyer-full.png" style="background-image:url(img/flyer-thumb.jpg)"></a>
+ <div class="concert-detail">
+  <p class="concert-title">第29回 西日本医科学生<u>オーケストラ・フェスティバル</u></p>
+  <table class="dl">
+   <tr><td>日時<td>2018年3月24日（土）<u>17:30 開演（17:00 開場）</u>
+   <tr><td>会場<td>広島 上野学園ホール <u>（<a target="_blank" href="http://www.rcchall.jp/hall/access/">地図</a>）</u>
+   <tr><td>曲目<td><u>ラフマニノフ／</u><u>交響曲第2番ホ短調</u>
+   <tr><td><td><u>プロコフィエフ／</u><u>バレエ音楽</u><u>『ロメオとジュリエット』より</u>
+   <tr><td><td><u>チャイコフスキー／</u><u>スラヴ行進曲</u>
+   <tr><td>指揮<td>中田延亮
+   <tr><td>料金<td><u>全席自由　</u><u>前売500円・</u><u>当日800円　</u><u>※小学生以下無料</u>
+   <tr><td><td><u><a target="_blank" href="http://ticket.pia.jp/pia/event.ds?eventCd=1802402">チケットぴあ</a>　</u><u>Pコード 106808　</u><u>TEL 0570-02-9999</u>
+   <tr><td>主催<td>西日本医科学生オーケストラ連盟
+   <tr><td>協賛<td>広島大学霞管弦楽団OB会
+   <tr><td>後援<td>広島市医師会 広島県医師会</u><br><u>広島市薬剤師会 広島県薬剤師会</u><br><u>広島市歯科医師会 広島県歯科医師会</u><u>広島市教育委員会 中国新聞社</u>
+  </table>
+ </div>
+</article>
+<article>
+<h2 id="ticket">チケット販売</h2>
+<span style="text-align: left">オンライン購入：<a target="_blank" href="http://ticket.pia.jp/pia/event.ds?eventCd=1802402">チケットぴあ</a>
+<u>電話購入：</u><u>チケットぴあ窓口 0570-02-9999　</u><u>Pコード 106808</u></span>
+購入締切：2018年3月23日（金）
+</article>
+<article>
+<h2 id="camp">合宿日程</h2>
+<table class="dl">
+<tr><td>日時<td><u>2018年3月18日（日）〜 </u><u>2018年3月23日（金）</u>
+<tr><td>会場<td>愛媛 ホテルアジュール汐の丸<u>（<a target="_blank" href="http://www.hotel-ajour.jp/access/">地図</a>）</u>
+</table></article>
+<style>
+article.link small { font-size: 70% }
+@media screen and (min-width: 430px) {
+
+ article.link small:before { content:"（" }
+ article.link small { font-size: 100% }
+ article.link small:after { content:"）" }
+}
+</style>
+<article class="link">
+<h2 id="link">リンク</h2>
+<!-- 1981 --><a href="http://natsuoke.com/" target="_blank">夏オケ <small>全日本医科学生オーケストラフェスティバル</small></a>
+<!-- 1988 --><a href="http://haruokehp.com/" target="_blank">春オケ <small>関東医科学生オーケストラフェスティバル</small></a>
+<!-- 1993 --><a href="http://kitaoke.com/" target="_blank">北オケ <small>北日本医科学生オーケストラフェスティバル</small></a>
+<!-- 1994 --><a href="http://music.geocities.jp/kansaiioke/" target="_blank">関西医オケ <small>関西医科学生交響楽団</small></a>
+<!-- 2011 --><a href="http://www.geocities.jp/igen5243/" target="_blank">医弦 <small>医系弦楽オーケストラアンサンブル</small></a>
+<!-- 2013 --><a href="http://icon.webcrow.jp/" target="_blank">医コン <small>医科学生コンチェルトオーケストラ</small></a>
+<!-- 2014 --><a href="http://ikasui.webcrow.jp/" target="_blank">医科吹 <small>医科学生ウィンドオーケストラ</small></a>
+<!-- 2016 --><a href="http://hayabusa-sym.com/" target="_blank">はやぶさ <small>交響楽団はやぶさ</small></a>
+<!-- 2017 --><a href="https://harusui.amebaownd.com/" target="_blank">春吹 <small>医科学生ウインドオーケストラ春季演奏会</small></a>
+<!-- 2017 --><a href="http://kansaimedwinds.web.fc2.com/" target="_blank">関医吹 <small>関西医科学生吹奏楽団</small></a>
+
+<!-- 1990 --><a href="http://plaza.umin.ac.jp/~ikaoke/" target="_blank">医家管 <small>全日本医家管弦楽団</small></a>
+<!-- 200?入学 2013 --><a href="https://wakuwaku-orchestra.jimdo.com/" target="_blank">Orchestra W</a>
+<!-- 2010入学 2018 --><a href="http://10orch10.starfree.jp/" target="_blank">Orchestra X</a>
+<!-- 2012入学 2016 --><a href="http://musunique.wp.xdomain.jp/" target="_blank">オーケストラ・ミュズニック</a>
+<!-- 2014入学 2018 --><a href="http://orcirene.html.xdomain.jp/" target="_blank">オーケストライレーネ</a>
+</article>
+</section>
+</main>
+
+
+
+<div id="tools"><!-- script.js で記述 --></div>
+<footer id="footer"><!-- script.js で記述 --></footer>
+<script src="src/script.js"></script>
+<script src="src/jquery-3.1.0.min.js"></script>
+<script src="src/flexslider.js"></script>
+<script src="src/lightbox.js"></script>
+<script>
+$(function(){
+ $("[data-lightbox]").each(function(){
+  var h = this.href;
+  $(this).attr("style", "background-image:url('" + h + "')");
+ });
+});
+</script>
